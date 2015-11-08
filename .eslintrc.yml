@@ -1,0 +1,50 @@
+env:
+  browser: true
+  jquery: true
+globals:
+  process: true
+extends:
+  - 'eslint:recommended'
+parserOptions:
+  sourceType: script
+rules:
+  indent:
+    - error
+    - 2
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - never
+  comma-dangle:
+    - error
+    - always-multiline
+  curly:
+    - error
+  no-unused-vars:
+    - error
+  no-useless-constructor:
+    - error
+  no-console:
+    - error
+  no-constant-condition: "off"
+  object-shorthand:
+    - error
+    - always
+    - avoidQuotes: true
+  arrow-body-style:
+    - error
+    - "as-needed"
+  jsx-quotes:
+    - error
+  object-curly-spacing:
+    - error
+    - always
+  key-spacing:
+    - error
+  space-infix-ops:
+    - error
