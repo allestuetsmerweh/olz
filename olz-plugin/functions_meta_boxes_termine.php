@@ -1,6 +1,6 @@
 <?php
 
-require_once(dirname(__FILE__).'/functions.php');
+require_once(dirname(__FILE__).'/utils/general.php');
 
 $post_type = 'termine';
 

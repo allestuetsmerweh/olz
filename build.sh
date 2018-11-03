@@ -14,7 +14,7 @@ while [[ $1 == -* ]]; do
   esac
 done
 
-if [[ $PUBLIC_ROOT != 0 && $SECRETS_ROOT != 0 && $DEPLOYMENT != 0 ]]; then
+if [[ $PUBLIC_ROOT != 0 && $SECRETS_ROOT != 0 && $BRANCH != 0 ]]; then
   mkdir -p $SECRETS_ROOT
 
   echo "{\"public-root\":\"$PUBLIC_ROOT\",\"secrets-root\":\"$SECRETS_ROOT\",\"branch\":\"$BRANCH\"}" > $SECRETS_ROOT/deployment.json

@@ -1,6 +1,6 @@
 <?php
 
-require_once('./server_config_link.php');
+require_once(dirname(__FILE__).'/server_config_link.php');
 
 /*
 * E-Mail-Anpassungen
